@@ -3,8 +3,8 @@
 
 const params = new URLSearchParams(window.location.search);
 
-const STRETCH_OFF = params.get("stretch") === "off";
-
+const STRETCH_OFF =
+    localStorage.getItem("stretchOff") === "true";
 
 var $plugins =
 [
