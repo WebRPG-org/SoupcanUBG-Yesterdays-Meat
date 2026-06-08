@@ -3,7 +3,7 @@
 
 const params = new URLSearchParams(window.location.search);
 
-const STRETCH_OFF = params.get("stretch") === "off";
+const STRETCH_OFF = params.get("stretch") === "on";
 
 
 var $plugins =
